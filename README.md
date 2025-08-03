@@ -1,6 +1,6 @@
 # Multi-Theme Switcher App
 
-A responsive Multi Theme switcher built with React, TypeScript, and Tailwind CSS, powered by Lovable.
+A responsive Multi Theme switcher built with React, Redux, TypeScript, and Tailwind CSS.
 
 ## Project Overview
 

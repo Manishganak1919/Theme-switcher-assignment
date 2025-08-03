@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic reset styles only */
+
+@layer base {
+  body {
+    @apply bg-white text-black;
+  }
+}
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 0 0 0;
+    --border: 0 0 0;
+    --primary: 59 130 246;
+  }
+
+  .theme2 {
+    --background: 0 0 0;
+    --foreground: 255 255 255;
+    --border: 255 255 255;
+    --primary: 255 115 179;
+  }
+
+  .theme3 {
+    --background: 240 240 240;
+    --foreground: 30 30 30;
+    --border: 180 180 180;
+    --primary: 34 197 94;
+  }
+}
